@@ -1,0 +1,10 @@
+# The build context is the whole repo; none of this belongs in the image.
+.git/
+.claude/
+.codex/
+.impeccable/
+**/node_modules/
+**/dist/
+**/.cert/
+**/.env
+*.pdf

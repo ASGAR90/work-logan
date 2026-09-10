@@ -1,0 +1,5 @@
+# Vendored agent skill packs. `.codex/skills/` is the source of truth that
+# AGENTS.md points at; the `.claude/` copies are generated pointers and
+# third-party installs, and would otherwise be cloned on every release build
+# for no runtime benefit.
+.claude/

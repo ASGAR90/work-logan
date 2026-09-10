@@ -1,0 +1,57 @@
+{
+  "schemaName": "WorkLog",
+  "collectionName": "blx_WorkLogs",
+  "schemaType": 1,
+  "fields": [
+    {
+      "name": "businessUnit",
+      "type": "String",
+      "isArray": false,
+      "isUniqueData": false,
+      "isPIIData": false,
+      "requiredOn": "None",
+      "description": "Business unit the work belongs to",
+      "fields": []
+    },
+    {
+      "name": "projectOrClient",
+      "type": "String",
+      "isArray": false,
+      "isUniqueData": false,
+      "isPIIData": false,
+      "requiredOn": "None",
+      "description": "Project or client the work was for",
+      "fields": []
+    },
+    {
+      "name": "hours",
+      "type": "Float",
+      "isArray": false,
+      "isUniqueData": false,
+      "isPIIData": false,
+      "requiredOn": "None",
+      "description": "Hours worked",
+      "fields": []
+    },
+    {
+      "name": "workDate",
+      "type": "String",
+      "isArray": false,
+      "isUniqueData": false,
+      "isPIIData": false,
+      "requiredOn": "None",
+      "description": "Date of the work, ISO yyyy-MM-dd",
+      "fields": []
+    },
+    {
+      "name": "notes",
+      "type": "String",
+      "isArray": false,
+      "isUniqueData": false,
+      "isPIIData": false,
+      "requiredOn": "None",
+      "description": "Optional notes",
+      "fields": []
+    }
+  ]
+}

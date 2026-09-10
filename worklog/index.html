@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Served from public/ at the site root. The source art is 810x729, so it
+         is padded to square on its own black ground rather than squashed. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon-180.png" />
+    <!-- Mori is licensed; DESIGN.md names Inter Tight as the substitute.
+         (Plain Inter is a stated Don't; Inter Tight is a distinct, tighter face.) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Work Log</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Blocks knowledge-hub chat agent. Both ids are public embed
+         identifiers, not secrets. Loaded here rather than from a component,
+         so it renders on every page including the sign-in screen. -->
+    <script
+      src="https://gpt2.seliseblocks.com/embed.js"
+      data-widget-id="8ccede52b1db4b5592a3f9d6ddaa107a"
+      data-project-key="D941c710e5c634ff6a326e5d279a32fd8"
+    ></script>
+  </body>
+</html>
